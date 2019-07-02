@@ -1,6 +1,6 @@
 <?php
 
-//创建不重复的随机函数  [$start 初始值]  [$total  结束值]
+//创建不重复的随机函数  [$low 初始值] [$high 结束值] [$total 生成总数]
 function createRandom($low, $high, $total){
     
     if (!$low || !$total) {
